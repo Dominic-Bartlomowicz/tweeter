@@ -23,6 +23,15 @@ body {
   font-size:15px;
 }
 
+
+main {
+  width: 450px;
+  background-color: white;
+  margin: auto;
+  padding-top: 140px;
+
+}
+
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
