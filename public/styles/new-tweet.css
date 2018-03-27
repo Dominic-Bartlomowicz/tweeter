@@ -1,0 +1,36 @@
+.new-tweet {
+  border: 3px;
+  background: #E0E0E0;
+  margin: 2em;
+  border-radius: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: -10px;
+}
+
+.new-tweet h2 {
+  position: relative;
+  border-bottom: 1px solid #000080;
+}
+
+
+.counter {
+position: relative;
+float: right;
+}
+
+
+.new-tweet textarea {
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+  width: 100%;
+}
+
+
+.new-tweet center {
+position: relative;
+margin: 2em;
+width: 50%;
+}

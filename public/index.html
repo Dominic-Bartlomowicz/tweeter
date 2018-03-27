@@ -14,8 +14,11 @@
     <!-- App CSS -->
     <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
 
-    <!-- Nav-Bar -->
+    <!-- Nav-Bar CSS -->
     <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
+
+    <!-- New Tweet CSS -->
+    <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
 
     <!-- External JS -->
     <script type="text/javascript" src="/vendor/jquery-2.2.3.min.js"></script>
@@ -35,12 +38,17 @@
     <!-- Page-specific (main) content here -->
     <main class="container">
 
-      Exercise
-No additional HTML elements should be required for this exercise. You are going to modify the CSS for the <main> tag.
+      <section class="new-tweet">
 
-Please avoid in-line style tags or (worse) in-line style attributes. All your CSS changes must be made to relevant CSS files.
+    <h2>Compose Tweet</h2>
 
-Since this is a page layout issue, make your CSS changes to the layout.css instead of nav.css.
+      <form action="/tweets" method="post">
+        <textarea name="text" placeholder="What are you humming about?"></textarea>
+          <input type="submit" value="Tweet">
+        <span class="counter">140</span>
+      </form>
+
+  </section>
 
     </main>
 
