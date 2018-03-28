@@ -1,10 +1,11 @@
 $(function() {
     console.log("ready!");
-
 });
 
 
+$.getJSON('http://localhost:8080/tweets', function(data) {
 
+});
 
 /*
  * Client-side JS logic goes here
