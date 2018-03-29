@@ -8,7 +8,7 @@
   color: #e8fdff;
   top: 0;
   padding: 0em 2em;
-  
+
 }
 
 
@@ -23,7 +23,22 @@
 }
 
 #nav-bar .header {
-
   font-size: 2em;
+}
 
+
+#nav-bar .button {
+  position: relative;
+  float: right;
+  margin-right: 0px;
+  margin-top: 26px;
+  background: turquoise;
+}
+
+#nav-bar .button:hover {
+  position: relative;
+  float: right;
+  margin-right: 0px;
+  margin-top: 26px;
+  background: white;
 }
