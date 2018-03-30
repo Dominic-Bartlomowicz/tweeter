@@ -17,16 +17,24 @@
 }
 
 
+.new-tweet form {
+  padding-bottom: 10px;
+}
+
 .counter {
-position: relative;
-float: right;
+  position: relative;
+  float: right;
+  padding-top: 7px;
+}
+
+.new-tweet input {
+  margin-top: 2px; 
 }
 
 
 .new-tweet textarea {
   position: relative;
-  padding-left: 10px;
-  padding-right: 20px;
+  padding-bottom: 30px;
   margin: auto;
   width: 100%;
 }

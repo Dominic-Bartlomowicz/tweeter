@@ -58,6 +58,10 @@ $(function () {
       $h3.text(days);
       $footer.append($h3);
 
+      // let $i = $("<i>");
+      // $i.text(i);
+      // $footer.append($i);
+
       $tweet.append($footer);
 
       return $tweet;
