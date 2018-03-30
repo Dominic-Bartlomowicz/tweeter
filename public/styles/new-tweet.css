@@ -16,7 +16,6 @@
   padding-top: 10px;
 }
 
-
 .new-tweet form {
   padding-bottom: 10px;
 }
@@ -31,14 +30,12 @@
   margin-top: 2px;
 }
 
-
 .new-tweet textarea {
   position: relative;
   padding-bottom: 30px;
   margin: auto;
   width: 100%;
 }
-
 
 .new-tweet center {
 position: relative;
