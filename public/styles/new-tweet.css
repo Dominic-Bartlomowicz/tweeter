@@ -1,4 +1,4 @@
-.new-tweet {  
+.new-tweet {
   display: none;
   border: 3px;
   background: #E0E0E0;
@@ -28,7 +28,7 @@
 }
 
 .new-tweet input {
-  margin-top: 2px; 
+  margin-top: 2px;
 }
 
 

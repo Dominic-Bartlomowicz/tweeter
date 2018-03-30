@@ -8,21 +8,22 @@
 }
 
 .tweets header {
-display: flex;
-justify-content: space-between;
-padding-bottom: 5px;
-background: #E0E0E0;
-flex: 1 100%;
-opacity: 0.7;
+  display: flex;
+  border-radius: 4px 4px 0px 0px;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  background: #E0E0E0;
+  flex: 1 100%;
+  opacity: 0.7;
 }
 
 .tweets:hover header {
-display: flex;
-justify-content: space-between;
-padding-bottom: 5px;
-background: #E0E0E0;
-flex: 1 100%;
-opacity: 1.0;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 4px 4px 0px 0px;
+  background: #E0E0E0;
+  flex: 1 100%;
+  opacity: 1.0;
 }
 
 .tweets i {
@@ -30,24 +31,19 @@ opacity: 1.0;
   float: right;
   padding-right: 5px;
   margin-left: 10px;
+  margin-top: 2px;
   color: turquoise;
-  opacity: 50%;
 }
 
 .tweets:hover i {
   opacity: 1.0;
-  float: right;
-  padding-right: 5px;
-  margin-left: 10px;
-  color: turquoise;
-  opacity: 50%;
 }
 
 
 .tweets img {
   float: left;
   margin-top: 4px;
-  margin-left: 10px;
+  margin-left: 5px;
   border-radius: 5px;
 }
 
@@ -62,6 +58,8 @@ opacity: 1.0;
   margin-top: 40px;
   margin-bottom: 40px;
   margin-left: 10px;
+  overflow-wrap: break-word;
+  margin-right: 8px;
 }
 
 
@@ -71,15 +69,13 @@ opacity: 1.0;
   font-size: 10px;
 }
 
-.tweets h3 {
-  border-top: 1px solid #000080;
+.tweets .footer h3 {
   padding-top: 5px;
-  position: relative;
-  position: bottom;
   padding-left: 10px;
   padding-bottom: 5px;
   margin-bottom: 0px;
   font-size: 12px;
+  display: inline;
 }
 
 .tweets textarea {
@@ -102,7 +98,12 @@ opacity: 1.0;
 
 
 .tweets center {
-position: relative;
-margin: 2em;
-width: 50%;
+  position: relative;
+  margin: 2em;
+  width: 50%;
+}
+
+.tweets footer {
+  border-top: 1px solid #000080;
+  margin-bottom: 2px;
 }

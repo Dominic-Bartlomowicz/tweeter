@@ -58,9 +58,17 @@ $(function () {
       $h3.text(days);
       $footer.append($h3);
 
-      // let $i = $("<i>");
-      // $i.text(i);
-      // $footer.append($i);
+      let $i = $("<i>");
+      $i.addClass("fas fa-heart");
+      $footer.append($i);
+
+      let $i2 = $("<i>");
+      $i2.addClass("fas fa-retweet");
+      $footer.append($i2);
+
+      let $i3 = $("<i>");
+      $i3.addClass("fas fa-flag");
+      $footer.append($i3);
 
       $tweet.append($footer);
 
