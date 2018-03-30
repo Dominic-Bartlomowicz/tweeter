@@ -8,8 +8,8 @@ $(function () {
     event.preventDefault()
     var data = $('.new-tweet form').serialize();
     postTweets(data);
-    console.log(data);
-    // window.location.reload();
+
+    // Error returned if tweet length is too long or short
 
     if($(".tweet-input").val().length == 0) {
       alert("Please enter text!");
@@ -23,15 +23,15 @@ $(function () {
 
     function createTweetElement(data){
 
+      // Redefining and appending variables for jQuery
+
       let username = data['user'].name;
       let handle = data['user'].handle;
       let avatar = data['user'].avatars['small'];
       let text = data['content'].text;
       let days = moment(data['created_at']).fromNow();
-      console.log(days);
 
       let $tweet = $("<article>").addClass("tweets");
-
       let $header = $("<header>").addClass("header");
 
       let $img = $("<img>").addClass("avatar");
@@ -75,6 +75,9 @@ $(function () {
       return $tweet;
     }
 
+
+    // RenderTweets: Cycles through tweets and prints tweet history
+
     function renderTweets(tweets) {
 
       var createTweets;
@@ -85,6 +88,9 @@ $(function () {
         $('#tweetlist').prepend($element)
       }
     }
+
+
+    // AJAX loadTweets function
 
     function loadTweets () {
       $.ajax({
@@ -99,6 +105,8 @@ $(function () {
 
    loadTweets();
 
+
+   // AJAX postTweets function
 
    function postTweets(data) {
 
@@ -115,25 +123,3 @@ $(function () {
      });
  }
 });
-
-
-
-
-
-//
-// app.get('/tweets', (req, res) => {
-//   res.json(tweets)
-// })
-//
-// app.post('/tweets', (req, res) => {
-//   const newTweet = {
-//     name: req.body.user.name
-//     avatar: req.body.user.avatar.small
-//     handle: req.body.handle
-//     text: req.body.content
-//     time: req.body.created_at
-//   }
-//   tweets[nextTweetId] = newTweet;
-//   nextTweetId += 1;
-//   res.redirect('/')
-// })

@@ -1,4 +1,4 @@
-
+/* CSS Styling for previously composed tweets */
 
 .tweets {
   border: 1px solid grey;
@@ -6,6 +6,7 @@
   margin: 2em;
   border-radius: 5px;
 }
+
 
 .tweets header {
   display: flex;
@@ -17,14 +18,11 @@
   opacity: 0.7;
 }
 
+
 .tweets:hover header {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 4px 4px 0px 0px;
-  background: #E0E0E0;
-  flex: 1 100%;
   opacity: 1.0;
 }
+
 
 .tweets i {
   opacity: 0;
@@ -34,6 +32,7 @@
   margin-top: 2px;
   color: turquoise;
 }
+
 
 .tweets:hover i {
   opacity: 1.0;
@@ -47,12 +46,14 @@
   border-radius: 5px;
 }
 
+
 .tweets h1 {
   margin-top: 5px;
   margin-left: 5px;
   font-size: 20px;
   flex: 1 0;
 }
+
 
 .tweets p {
   margin-top: 40px;
@@ -62,11 +63,13 @@
   margin-right: 8px;
 }
 
+
  header .handle {
   padding-top: 15px;
   padding-right: 10px;
   font-size: 10px;
 }
+
 
 .tweets .footer h3 {
   padding-top: 5px;
@@ -77,6 +80,7 @@
   display: inline;
 }
 
+
 .tweets textarea {
   position: relative;
   padding-left: 10px;
@@ -84,6 +88,7 @@
   margin: auto;
   width: 100%;
 }
+
 
 .tweets name-input {
   position: relative;
@@ -94,11 +99,13 @@
   width: 100%;
 }
 
+
 .tweets center {
   position: relative;
   margin: 2em;
   width: 50%;
 }
+
 
 .tweets footer {
   border-top: 1px solid #000080;

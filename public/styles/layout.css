@@ -11,9 +11,6 @@ html {
   box-sizing: inherit;
 }
 
-/*
- * Global layout stuff
- */
 
 body {
   margin: 0;
@@ -23,6 +20,7 @@ body {
   font-size:15px;
 }
 
+/* Main body styling */
 
 main {
   width: 450px;
@@ -32,12 +30,3 @@ main {
   padding-top: 5px;
 
 }
-
-
-
-
-
-
-/*
- * Additional CSS can be defined below or in other CSS files, as per instructions
- */
