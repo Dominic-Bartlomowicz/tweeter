@@ -1,3 +1,4 @@
+// Character counter: determines the number of keystrokes by the user and returns the number of maximum characters left to type
 
 $(function() {
 

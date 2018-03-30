@@ -1,5 +1,6 @@
+/* CSS Styling for new tweet composition form */
 
-.new-tweet {  
+.new-tweet {
   display: none;
   border: 3px;
   background: #E0E0E0;
@@ -11,6 +12,7 @@
   padding-bottom: -10px;
 }
 
+
 .new-tweet h2 {
   position: relative;
   border-bottom: 1px solid #000080;
@@ -18,16 +20,27 @@
 }
 
 
+.new-tweet form {
+  padding-bottom: 10px;
+}
+
+
 .counter {
-position: relative;
-float: right;
+  font-style: italic;
+  position: relative;
+  float: right;
+  padding-top: 7px;
+}
+
+
+.new-tweet input {
+  margin-top: 2px;
 }
 
 
 .new-tweet textarea {
   position: relative;
-  padding-left: 10px;
-  padding-right: 20px;
+  padding-bottom: 30px;
   margin: auto;
   width: 100%;
 }
